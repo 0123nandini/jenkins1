@@ -39,5 +39,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run java script
         run: |
-          npm install
           node pdftobase64.js
